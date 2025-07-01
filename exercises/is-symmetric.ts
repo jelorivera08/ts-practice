@@ -12,6 +12,12 @@
  * }
  */
 
+interface TreeNode {
+  val: number;
+  left: TreeNode | null;
+  right: TreeNode | null;
+}
+
 const isSymmetricCheck = (
   tree1: TreeNode | null | undefined,
   tree2: TreeNode | null | undefined
